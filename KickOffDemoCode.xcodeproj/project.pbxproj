@@ -7,9 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C057A7DC4DB7A4EEE5D6364 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB27F74570EE93048ADD5F0 /* libPods.a */; };
+		65188BD01B76B2CB001AFB2B /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65188BCF1B76B2CB001AFB2B /* AlbumTableViewCell.m */; };
+		65188BD31B76B83C001AFB2B /* AlbumsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65188BD21B76B83C001AFB2B /* AlbumsTableViewController.m */; };
+		655AD72D1B758DC5008723A3 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 655AD72C1B758DC5008723A3 /* Comment.m */; };
+		655AD7341B75A0CD008723A3 /* CommentClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 655AD7331B75A0CD008723A3 /* CommentClient.m */; };
+		65A5CAD91B7656FB004E0AC1 /* WebResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CAD81B7656FB004E0AC1 /* WebResponse.m */; };
+		65A5CADC1B7657F0004E0AC1 /* NSArray+MapFromJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CADB1B7657F0004E0AC1 /* NSArray+MapFromJSON.m */; };
+		65A5CADF1B768358004E0AC1 /* NSObject+NullableValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CADE1B768358004E0AC1 /* NSObject+NullableValues.m */; };
+		65A5CAE21B768766004E0AC1 /* WebDS.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CAE11B768766004E0AC1 /* WebDS.m */; };
+		65A5CAE91B768A1C004E0AC1 /* WebHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CAE81B768A1C004E0AC1 /* WebHTTPClient.m */; };
+		65A5CAEF1B76965D004E0AC1 /* UITableViewCell+CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CAEE1B76965D004E0AC1 /* UITableViewCell+CustomObject.m */; };
+		65A5CAF21B769AC0004E0AC1 /* CommentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CAF11B769AC0004E0AC1 /* CommentsTableViewController.m */; };
+		65A5CAF51B769CB4004E0AC1 /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CAF41B769CB4004E0AC1 /* CommentTableViewCell.m */; };
+		65A5CAF81B76AE5A004E0AC1 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CAF71B76AE5A004E0AC1 /* Album.m */; };
+		65A5CAFB1B76AF7B004E0AC1 /* AlbumClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CAFA1B76AF7B004E0AC1 /* AlbumClient.m */; };
+		65A5CB001B76B26B004E0AC1 /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5CAFF1B76B26B004E0AC1 /* MainScreenViewController.m */; };
 		65E1672E1B75884000FA8FAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1672D1B75884000FA8FAE /* main.m */; };
 		65E167311B75884000FA8FAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E167301B75884000FA8FAE /* AppDelegate.m */; };
-		65E167341B75884000FA8FAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E167331B75884000FA8FAE /* ViewController.m */; };
 		65E167371B75884000FA8FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E167351B75884000FA8FAE /* Main.storyboard */; };
 		65E167391B75884000FA8FAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E167381B75884000FA8FAE /* Images.xcassets */; };
 		65E1673C1B75884000FA8FAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E1673A1B75884000FA8FAE /* LaunchScreen.xib */; };
@@ -27,19 +42,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CB27F74570EE93048ADD5F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		520662C8F6CD39B95D8A0FB4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		65188BCE1B76B2CB001AFB2B /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewCell.h; sourceTree = "<group>"; };
+		65188BCF1B76B2CB001AFB2B /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewCell.m; sourceTree = "<group>"; };
+		65188BD11B76B83C001AFB2B /* AlbumsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsTableViewController.h; sourceTree = "<group>"; };
+		65188BD21B76B83C001AFB2B /* AlbumsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsTableViewController.m; sourceTree = "<group>"; };
+		655AD72B1B758DC5008723A3 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		655AD72C1B758DC5008723A3 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		655AD7321B75A0CD008723A3 /* CommentClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentClient.h; sourceTree = "<group>"; };
+		655AD7331B75A0CD008723A3 /* CommentClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentClient.m; sourceTree = "<group>"; };
+		65A5CAD71B7656FB004E0AC1 /* WebResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebResponse.h; sourceTree = "<group>"; };
+		65A5CAD81B7656FB004E0AC1 /* WebResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebResponse.m; sourceTree = "<group>"; };
+		65A5CADA1B7657F0004E0AC1 /* NSArray+MapFromJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MapFromJSON.h"; sourceTree = "<group>"; };
+		65A5CADB1B7657F0004E0AC1 /* NSArray+MapFromJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MapFromJSON.m"; sourceTree = "<group>"; };
+		65A5CADD1B768358004E0AC1 /* NSObject+NullableValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NullableValues.h"; sourceTree = "<group>"; };
+		65A5CADE1B768358004E0AC1 /* NSObject+NullableValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NullableValues.m"; sourceTree = "<group>"; };
+		65A5CAE01B768766004E0AC1 /* WebDS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebDS.h; sourceTree = "<group>"; };
+		65A5CAE11B768766004E0AC1 /* WebDS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebDS.m; sourceTree = "<group>"; };
+		65A5CAE71B768A1C004E0AC1 /* WebHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebHTTPClient.h; sourceTree = "<group>"; };
+		65A5CAE81B768A1C004E0AC1 /* WebHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebHTTPClient.m; sourceTree = "<group>"; };
+		65A5CAEA1B768C48004E0AC1 /* WebDSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebDSClient.h; sourceTree = "<group>"; };
+		65A5CAED1B76965D004E0AC1 /* UITableViewCell+CustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CustomObject.h"; sourceTree = "<group>"; };
+		65A5CAEE1B76965D004E0AC1 /* UITableViewCell+CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+CustomObject.m"; sourceTree = "<group>"; };
+		65A5CAF01B769AC0004E0AC1 /* CommentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsTableViewController.h; sourceTree = "<group>"; };
+		65A5CAF11B769AC0004E0AC1 /* CommentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsTableViewController.m; sourceTree = "<group>"; };
+		65A5CAF31B769CB4004E0AC1 /* CommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableViewCell.h; sourceTree = "<group>"; };
+		65A5CAF41B769CB4004E0AC1 /* CommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
+		65A5CAF61B76AE5A004E0AC1 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		65A5CAF71B76AE5A004E0AC1 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		65A5CAF91B76AF7B004E0AC1 /* AlbumClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumClient.h; sourceTree = "<group>"; };
+		65A5CAFA1B76AF7B004E0AC1 /* AlbumClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumClient.m; sourceTree = "<group>"; };
+		65A5CAFE1B76B26B004E0AC1 /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		65A5CAFF1B76B26B004E0AC1 /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
 		65E167281B75884000FA8FAE /* KickOffDemoCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickOffDemoCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E1672C1B75884000FA8FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E1672D1B75884000FA8FAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65E1672F1B75884000FA8FAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65E167301B75884000FA8FAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65E167321B75884000FA8FAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65E167331B75884000FA8FAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		65E167361B75884000FA8FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65E167381B75884000FA8FAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65E1673B1B75884000FA8FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		65E167411B75884100FA8FAE /* KickOffDemoCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickOffDemoCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E167461B75884100FA8FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E167471B75884100FA8FAE /* KickOffDemoCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KickOffDemoCodeTests.m; sourceTree = "<group>"; };
+		6B69D47DC8DC7609E5E0D200 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C057A7DC4DB7A4EEE5D6364 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +108,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216A45870966E660A2114944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB27F74570EE93048ADD5F0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		291962CA0AE0A69BB04FF2FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				520662C8F6CD39B95D8A0FB4 /* Pods.debug.xcconfig */,
+				6B69D47DC8DC7609E5E0D200 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		655AD7291B758C9E008723A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				655AD72B1B758DC5008723A3 /* Comment.h */,
+				655AD72C1B758DC5008723A3 /* Comment.m */,
+				65A5CAF61B76AE5A004E0AC1 /* Album.h */,
+				65A5CAF71B76AE5A004E0AC1 /* Album.m */,
+				65A5CAD71B7656FB004E0AC1 /* WebResponse.h */,
+				65A5CAD81B7656FB004E0AC1 /* WebResponse.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		655AD72A1B758CB5008723A3 /* HTTPClients */ = {
+			isa = PBXGroup;
+			children = (
+				65A5CAEA1B768C48004E0AC1 /* WebDSClient.h */,
+				65A5CAE71B768A1C004E0AC1 /* WebHTTPClient.h */,
+				65A5CAE81B768A1C004E0AC1 /* WebHTTPClient.m */,
+				655AD7321B75A0CD008723A3 /* CommentClient.h */,
+				655AD7331B75A0CD008723A3 /* CommentClient.m */,
+				65A5CAF91B76AF7B004E0AC1 /* AlbumClient.h */,
+				65A5CAFA1B76AF7B004E0AC1 /* AlbumClient.m */,
+			);
+			name = HTTPClients;
+			sourceTree = "<group>";
+		};
+		655AD7351B75A136008723A3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				65A5CADD1B768358004E0AC1 /* NSObject+NullableValues.h */,
+				65A5CADE1B768358004E0AC1 /* NSObject+NullableValues.m */,
+				65A5CADA1B7657F0004E0AC1 /* NSArray+MapFromJSON.h */,
+				65A5CADB1B7657F0004E0AC1 /* NSArray+MapFromJSON.m */,
+				65A5CAED1B76965D004E0AC1 /* UITableViewCell+CustomObject.h */,
+				65A5CAEE1B76965D004E0AC1 /* UITableViewCell+CustomObject.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		65A5CAE31B76876F004E0AC1 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				65A5CAE01B768766004E0AC1 /* WebDS.h */,
+				65A5CAE11B768766004E0AC1 /* WebDS.m */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		65A5CAFC1B76B216004E0AC1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65A5CAFE1B76B26B004E0AC1 /* MainScreenViewController.h */,
+				65A5CAFF1B76B26B004E0AC1 /* MainScreenViewController.m */,
+				65A5CAF01B769AC0004E0AC1 /* CommentsTableViewController.h */,
+				65A5CAF11B769AC0004E0AC1 /* CommentsTableViewController.m */,
+				65188BD11B76B83C001AFB2B /* AlbumsTableViewController.h */,
+				65188BD21B76B83C001AFB2B /* AlbumsTableViewController.m */,
+				65A5CAFD1B76B227004E0AC1 /* Cells */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		65A5CAFD1B76B227004E0AC1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				65A5CAF31B769CB4004E0AC1 /* CommentTableViewCell.h */,
+				65A5CAF41B769CB4004E0AC1 /* CommentTableViewCell.m */,
+				65188BCE1B76B2CB001AFB2B /* AlbumTableViewCell.h */,
+				65188BCF1B76B2CB001AFB2B /* AlbumTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		65E1671F1B75884000FA8FAE = {
 			isa = PBXGroup;
 			children = (
 				65E1672A1B75884000FA8FAE /* KickOffDemoCode */,
 				65E167441B75884100FA8FAE /* KickOffDemoCodeTests */,
 				65E167291B75884000FA8FAE /* Products */,
+				291962CA0AE0A69BB04FF2FC /* Pods */,
+				216A45870966E660A2114944 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +224,11 @@
 			children = (
 				65E1672F1B75884000FA8FAE /* AppDelegate.h */,
 				65E167301B75884000FA8FAE /* AppDelegate.m */,
-				65E167321B75884000FA8FAE /* ViewController.h */,
-				65E167331B75884000FA8FAE /* ViewController.m */,
+				655AD7291B758C9E008723A3 /* Model */,
+				655AD7351B75A136008723A3 /* Categories */,
+				655AD72A1B758CB5008723A3 /* HTTPClients */,
+				65A5CAE31B76876F004E0AC1 /* DataSources */,
+				65A5CAFC1B76B216004E0AC1 /* View Controllers */,
 				65E167351B75884000FA8FAE /* Main.storyboard */,
 				65E167381B75884000FA8FAE /* Images.xcassets */,
 				65E1673A1B75884000FA8FAE /* LaunchScreen.xib */,
@@ -126,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65E1674B1B75884100FA8FAE /* Build configuration list for PBXNativeTarget "KickOffDemoCode" */;
 			buildPhases = (
+				2A2C7BA96BC796A5A2CFD0B4 /* Check Pods Manifest.lock */,
 				65E167241B75884000FA8FAE /* Sources */,
 				65E167251B75884000FA8FAE /* Frameworks */,
 				65E167261B75884000FA8FAE /* Resources */,
+				1D7A01991BEF99FC6CC36C18 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +360,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D7A01991BEF99FC6CC36C18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A2C7BA96BC796A5A2CFD0B4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65E167241B75884000FA8FAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E167341B75884000FA8FAE /* ViewController.m in Sources */,
+				65A5CAEF1B76965D004E0AC1 /* UITableViewCell+CustomObject.m in Sources */,
+				65A5CADC1B7657F0004E0AC1 /* NSArray+MapFromJSON.m in Sources */,
+				65A5CAE91B768A1C004E0AC1 /* WebHTTPClient.m in Sources */,
+				65A5CAF51B769CB4004E0AC1 /* CommentTableViewCell.m in Sources */,
+				65A5CAF81B76AE5A004E0AC1 /* Album.m in Sources */,
+				65188BD01B76B2CB001AFB2B /* AlbumTableViewCell.m in Sources */,
 				65E167311B75884000FA8FAE /* AppDelegate.m in Sources */,
+				65A5CAF21B769AC0004E0AC1 /* CommentsTableViewController.m in Sources */,
+				655AD7341B75A0CD008723A3 /* CommentClient.m in Sources */,
+				65A5CAE21B768766004E0AC1 /* WebDS.m in Sources */,
+				65A5CB001B76B26B004E0AC1 /* MainScreenViewController.m in Sources */,
 				65E1672E1B75884000FA8FAE /* main.m in Sources */,
+				65A5CAD91B7656FB004E0AC1 /* WebResponse.m in Sources */,
+				65A5CADF1B768358004E0AC1 /* NSObject+NullableValues.m in Sources */,
+				65188BD31B76B83C001AFB2B /* AlbumsTableViewController.m in Sources */,
+				65A5CAFB1B76AF7B004E0AC1 /* AlbumClient.m in Sources */,
+				655AD72D1B758DC5008723A3 /* Comment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +538,7 @@
 		};
 		65E1674C1B75884100FA8FAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 520662C8F6CD39B95D8A0FB4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KickOffDemoCode/Info.plist;
@@ -355,6 +549,7 @@
 		};
 		65E1674D1B75884100FA8FAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B69D47DC8DC7609E5E0D200 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KickOffDemoCode/Info.plist;
@@ -416,6 +611,7 @@
 				65E1674D1B75884100FA8FAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65E1674E1B75884100FA8FAE /* Build configuration list for PBXNativeTarget "KickOffDemoCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +620,7 @@
 				65E167501B75884100FA8FAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
